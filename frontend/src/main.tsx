@@ -8,6 +8,8 @@ import {
 import Home from './router/Home';
 import Info from './router/Info';
 import List from './router/List';
+import SingIn from './router/SingIn';
+import SingUp from './router/SingUp';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "/urls",
     element: <List />
+  },
+  {
+    path: "singin",
+    element: <SingIn />
+  },
+  {
+    path: "singup",
+    element: <SingUp />
   }
 ]);
 ReactDOM.createRoot(document.getElementById('root')!).render(

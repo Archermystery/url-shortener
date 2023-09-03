@@ -1,0 +1,33 @@
+.sing{
+  width: 330px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #727171;
+  padding: 10px;
+  border-radius: 10px;
+}
+.sing h2{
+  text-align: center;
+}
+.sing input[type="submit"]{
+  padding: 10px;
+  width: 70px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px; 
+  background-color: #d65d00;
+  color: #e0e0e0;
+}
+.sing a{
+  color: #d65d00;
+}
+.text-input{
+  background-color: #626172;
+  outline: none;
+  border: none;
+  color: #e0e0e0;
+  font-size: 16px;
+  height: 20px;
+  border-radius: 10px;
+}

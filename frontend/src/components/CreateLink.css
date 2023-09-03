@@ -1,23 +1,23 @@
 
 
-input.span:read-only{
+.main input.span:read-only{
   opacity: 0.6;
 }
-input.span{
+.main input.span{
   
   border-top-left-radius: 0px ;
   border-bottom-left-radius:0px ;
 }
-span.opacity{opacity:0.6;}
+.main span.opacity{opacity:0.6;}
 
-span{
+.main span{
   background-color: #626161;
   font-size: 16px;
   padding-left: 5px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
-input[type="submit"]{
+.main input[type="submit"]{
   padding: 10px;
   width: 70px;
   border: none;
@@ -26,12 +26,12 @@ input[type="submit"]{
   background-color: #d65d00;
   color: #e0e0e0;
 }
-input[type="submit"]:hover{
+.main input[type="submit"]:hover{
   background-color: #bf5606;
 }
 .submit{
   text-align: center;
 }
-li{
+.main li{
   color: #ba0303;
 }
