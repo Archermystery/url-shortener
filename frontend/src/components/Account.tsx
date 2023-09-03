@@ -15,14 +15,12 @@ function Account() {
   } else {
     return (
       <div className="unlogged">
-        <a href="singin" className="in">
-          Sing in
-        </a>
-        <a href="singup" className="up">
+        <a href="singup" className="singup">
           Sing up
         </a>
-
-
+        <a href="singin" className="singin">
+          Sing in
+        </a>
       </div>
     )
   }
