@@ -1,0 +1,22 @@
+table{
+  margin: auto;
+  width: 700px;
+  border-radius: 10px;
+  background-color: #727171;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.header th {
+  text-align: center;
+  background-color: #bf5606;
+}
+.header th:first-child{
+  border: solid #bf5606;
+  border-top-left-radius: 10px;
+}
+.header th:last-child{
+  border: solid #bf5606;
+  border-top-right-radius: 10px;
+}
+
