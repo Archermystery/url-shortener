@@ -1,0 +1,37 @@
+
+
+input.span:read-only{
+  opacity: 0.6;
+}
+input.span{
+  
+  border-top-left-radius: 0px ;
+  border-bottom-left-radius:0px ;
+}
+span.opacity{opacity:0.6;}
+
+span{
+  background-color: #626161;
+  font-size: 16px;
+  padding-left: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+input[type="submit"]{
+  padding: 10px;
+  width: 70px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px; 
+  background-color: #d65d00;
+  color: #e0e0e0;
+}
+input[type="submit"]:hover{
+  background-color: #bf5606;
+}
+.submit{
+  text-align: center;
+}
+li{
+  color: #ba0303;
+}

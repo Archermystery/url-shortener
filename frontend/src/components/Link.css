@@ -1,0 +1,39 @@
+.main{
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: auto;
+  background-color:#727171;
+  border: solid #727171 10px;
+  border-radius: 10px;
+}
+h2{
+  text-align: center;
+}
+input[type="checkbox"]{
+  margin-right: 20px;
+
+}
+
+input[type="text"]{
+  background-color: #626161;
+  outline: none;
+  border: none;
+  color: #e0e0e0;
+  font-size: 16px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+input[type="url"]{
+  background-color: #626161;
+  outline: none;
+  border: none;
+  color: #e0e0e0;
+  font-size: 16px;
+  border-radius: 10px;
+}
+input[type="checkbox"]{
+  accent-color:#bf5606;
+}
